@@ -1,8 +1,9 @@
 import React from 'react'
+import { FaBlog } from "react-icons/fa";
 
-function Logo({width = '100px'}) {
+function Logo() {
   return (
-    <div>Logo</div>
+    <div><FaBlog style={{ fontSize: '40px'}} /></div>
   )
 }
 
